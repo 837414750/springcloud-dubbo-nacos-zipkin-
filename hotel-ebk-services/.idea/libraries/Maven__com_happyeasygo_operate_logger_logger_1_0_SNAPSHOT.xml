@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.happyeasygo.operate.logger:logger:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/happyeasygo/operate/logger/logger/1.0-SNAPSHOT/logger-1.0-20200319.090402-6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/com/happyeasygo/operate/logger/logger/1.0-SNAPSHOT/logger-1.0-20200319.090402-6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/happyeasygo/operate/logger/logger/1.0-SNAPSHOT/logger-1.0-20200319.090402-6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+server:
+  port: 9900
+spring:
+  application:
+    name: hotel-gateway
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.16.16.79:8848

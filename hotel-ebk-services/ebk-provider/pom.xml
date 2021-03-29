@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.happyeasygo.parent</groupId>
+        <artifactId>hotel-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.happyeasygo.ebk</groupId>
+    <artifactId>ebk-provider</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!--临时处理方案,先使用之前的导包的方式导入-->
+        <dependency>
+            <groupId>com.happyeasygo.hotel.hotelbasicdata</groupId>
+            <artifactId>pojo</artifactId>
+            <version>0.0.1-20210201.035134-310</version>
+        </dependency>
+    </dependencies>
+</project>

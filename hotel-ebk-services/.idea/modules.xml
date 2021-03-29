@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hotel-commons/commons-tool/commons-tool.iml" filepath="$PROJECT_DIR$/../hotel-commons/commons-tool/commons-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hotel-ebk-services/ebk-api/ebk-api.iml" filepath="$PROJECT_DIR$/../hotel-ebk-services/ebk-api/ebk-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hotel-ebk-services/ebk-provider/ebk-provider.iml" filepath="$PROJECT_DIR$/../hotel-ebk-services/ebk-provider/ebk-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hotel-channel-api.iml" filepath="$PROJECT_DIR$/.idea/hotel-channel-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hotel-commons/hotel-commons.iml" filepath="$PROJECT_DIR$/../hotel-commons/hotel-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hotel-ebk-services/hotel-ebk-services.iml" filepath="$PROJECT_DIR$/../hotel-ebk-services/hotel-ebk-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hotel-parent/hotel-parent.iml" filepath="$PROJECT_DIR$/../hotel-parent/hotel-parent.iml" />
+    </modules>
+  </component>
+</project>

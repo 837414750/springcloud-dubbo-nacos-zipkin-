@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hotel-gatway" />
+        <module name="ebk-api" />
+        <module name="ebk-provider" />
+        <module name="hotel-parent" />
+        <module name="commons-tool" />
+        <module name="hotel-channel-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hotel-ebk-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

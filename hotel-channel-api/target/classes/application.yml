@@ -1,0 +1,73 @@
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 172.16.16.79:8080
+        port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 172.16.16.79:8848
+            dataId: hotel-channel-api
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+  #zipkin链路追踪 start
+  zipkin:
+    base-url: http://172.16.16.79:9411
+    discovery-client-enabled: false
+    enabled: true
+    messageTimeout: 5
+    sender:
+      #向http发送trace信息，使用默认的HTTP方式收集 Span 需要配置此项
+      type: web
+  sleuth:
+    sampler:
+      #采样率介于0-1之间，1则表示全部采集
+      probability: 1
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://dev:dev%40heg@172.16.16.85:27017/hotel_data}
+#zipkin链路追踪 end
+
+#dubbo配置 start
+dubbo:
+  application:
+    name: hotel-channel-api
+    qos-enable: false
+    logger: slf4j
+  consumer:
+    check: false
+    filter: 'tracing'
+    retries: 0
+    timeout: 3000
+  protocol:
+    active: 3
+    name: dubbo
+    port: -1
+    threadpool: fixed
+    threads: 30
+  provider:
+    filter: 'tracing'
+    retries: 0
+    timeout: 3000
+  registry:
+    address: nacos://172.16.16.79:8848
+    check: true
+#  scan:
+#    base-packages: com.happyeasygo.channel.provider
+#dubbo配置 end
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+channel:
+  authentication:
+    axisRooms: ${AXISROOMS_AUTH:827ccb0eea8a706c4c34a16891f84e7b}
+    rezGain: ${REZGAIN_AUTH:{"userName":"rategain","password":"skghnu153DFGE*^$@!"}}
+    staah: ${STAAH_AUTH:{"key":"abc123","url":"https://getyourweb.staah.net/common-cgi/Simulator/Services.pl"}}
+    maximojo: ${MAXIMOJO_AUTH:{"authorization":"Basic SGFwcHllYXN5OiM4ODg="}}
+    reznext: ${REZNEXT_AUTH:{"userName":"Reznext","password":"encryptedpasswordtext"}}

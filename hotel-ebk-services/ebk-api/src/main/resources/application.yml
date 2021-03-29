@@ -1,0 +1,60 @@
+server:
+  port: 7081
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://dev:dev%40heg@172.16.16.85:27017/hotel}
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 172.16.16.79:8080
+        port: 8719
+  #链路追踪模块 start
+  zipkin:
+    base-url: http://localhost:9411
+    discovery-client-enabled: false
+    enabled: true
+    messageTimeout: 5
+    sender:
+      #向http发送trace信息，使用默认的HTTP方式收集 Span 需要配置此项
+      type: web
+  sleuth:
+    sampler:
+      #采样率介于0-1之间，1则表示全部采集
+      probability: 1
+  #链路追踪模块 end
+
+
+#dubbo配置 start
+dubbo:
+  application:
+    name: hotel-ebk-services-api
+    qos-enable: false
+    logger: slf4j
+  consumer:
+    check: false  #项目启动时检查服务提供者服务正常(true:检查)
+    filter: 'tracing'
+    retries: 0
+    timeout: 3000
+  protocol:
+    active: 3
+    name: dubbo
+    port: -1
+    threadpool: fixed
+    threads: 30
+  provider:
+    filter: 'tracing'
+    retries: 0
+    timeout: 3000
+  registry:
+    address: nacos://172.16.16.79:8848
+    check: true
+  scan:
+    base-packages: com.happyeasygo.ebk.provider
+#dubbo配置 end
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

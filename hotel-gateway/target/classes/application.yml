@@ -1,0 +1,35 @@
+spring:
+  #链路追踪模块 start
+  zipkin:
+    base-url: http://172.16.16.79:9411
+    discovery-client-enabled: false
+    enabled: true
+    messageTimeout: 5
+    sender:
+      #向http发送trace信息，使用默认的HTTP方式收集 Span 需要配置此项
+      type: web
+  sleuth:
+    sampler:
+      #采样率介于0-1之间，1则表示全部采集
+      probability: 1
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 172.16.16.79:8080
+        port: 8719
+    gateway:
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+      routes:
+        - id: channel-api
+          uri: lb://hotel-channel-api
+          # 断言
+          predicates:
+            - Path=/channel/**
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

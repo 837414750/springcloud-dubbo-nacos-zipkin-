@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunDashboard"> 
+		<option name="configurationTypes">
+			<set> 
+				<option value="SpringBootApplicationConfigurationType" />
+			</set> 
+		</option> 
+		<option name="ruleStates"> 
+			<list> 
+				<RuleState> 
+					<option name="name" value="ConfigurationTypeDashboardGroupingRule" /> 
+				</RuleState> 
+				<RuleState> 
+					<option name="name" value="StatusDashboardGroupingRule" /> 
+				</RuleState> 
+			</list>
+		</option> 
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f017f01e-eab2-464f-aa36-88c4488f5901" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qBuk6OTS17yeOqHbva6h3SxwKT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hotel-ebk-services/ebk-api/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.happyeasygo.ebk.provider" />
+      <recent name="com.happyeasygo.ebk.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_home\hotel\hotel-ebk-services\ebk-api\src\main\resources" />
+      <recent name="D:\workspace_home\hotel\hotel-ebk-services\ebk-provider\src\main\java\com\happyeasygo\ebk\dto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="MavenRunConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HotelEbkApplication">
+    <configuration name="HotelChannelServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hotel-channel-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.happyeasygo.hotel.HotelChannelServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelEbkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ebk-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.happyeasygo.ebk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.happyeasygo.ebk.HotelEbkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.HotelEbkApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+          <option name="groupByContributor" value="true" />
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f017f01e-eab2-464f-aa36-88c4488f5901" name="Default Changelist" comment="" />
+      <created>1616565443118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616565443118</updated>
+      <workItem from="1616565444994" duration="405000" />
+      <workItem from="1616565985012" duration="6945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#New_Docker_Connection" timestamp="1616581223586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#New_Docker_Connection/0.0.1920.1040@0.0.1920.1040" timestamp="1616581223586" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1616566685866">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616566685866" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1616581883217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616581883217" />
+    <state x="621" y="285" key="NewModule_or_Project.wizard" timestamp="1616566687043">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="621" y="285" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1616566687043" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1616566688771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616566688771" />
+    <state x="636" y="258" width="647" height="524" key="find.popup" timestamp="1616570324560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616570324560" />
+    <state x="334" y="214" key="new project wizard" timestamp="1616568659699">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1616568659699" />
+  </component>
+</project>
